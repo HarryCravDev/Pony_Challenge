@@ -1,7 +1,7 @@
 import React from "react";
 import InputRange from "../InputRange/InputRange";
 import CreateMazeButton from "../Buttons/CreateMazeButton/CreateMazeButton";
-import Instructions from "../Buttons/Instructions/Instructions";
+import ShowInstructionsButton from "../Buttons/ShowInstructionsButton/ShowInstructionsButton";
 
 const GameControls: React.FC<{ sideNav: boolean }> = ({ sideNav }) => {
 	if (!sideNav) {
@@ -32,7 +32,7 @@ const GameControls: React.FC<{ sideNav: boolean }> = ({ sideNav }) => {
 					sideNav={sideNav}
 				/>
 				<CreateMazeButton title="Create Maze" color="success" />
-				<Instructions title="Instructions" color="success" />
+				<ShowInstructionsButton title="Instructions" color="success" />
 			</>
 		);
 	} else {
@@ -79,7 +79,7 @@ const GameControls: React.FC<{ sideNav: boolean }> = ({ sideNav }) => {
 				>
 					<CreateMazeButton title="Create Maze" color="success" />
 					<div></div>
-					<Instructions title="Instructions" color="success" />
+					<ShowInstructionsButton title="Instructions" color="success" />
 				</li>
 			</>
 		);
