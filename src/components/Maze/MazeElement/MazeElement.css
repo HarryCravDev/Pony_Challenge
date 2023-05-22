@@ -1,0 +1,26 @@
+.element {
+	text-align: center;
+	font-size: 1rem;
+	font-weight: bold;
+	color: grey;
+}
+
+.north {
+	border-top: 2px solid #38d39a;
+}
+.east {
+	border-right: 2px solid #38d39a;
+}
+.south {
+	border-bottom: 2px solid #38d39a;
+}
+.west {
+	border-left: 2px solid #38d39a;
+}
+
+@media only screen and (max-width: 480px) {
+	.element {
+		height: 6.33333vmin !important;
+		width: 6.33333vmin !important;
+	}
+}
