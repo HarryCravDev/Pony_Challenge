@@ -27,11 +27,8 @@ npm install
 4 - Once that has finished installing, run this command to start the application process:
 
 ```node
-npm run dev
+npm run start
 ```
-
-5 - In your temrinal or command line window where the last command was run, it should produce a URL. The URL will appear as: http://localhost:5173/
-Copy the URL and paste it into a browser window.
 
 ### Method 2
 
@@ -40,5 +37,21 @@ Copy the URL and paste it into a browser window.
 2 - Using your terminal or command line window, run the following command...
 
 ```node
-git clone
+git clone https://github.com/HarryCravDev/Pony_Challenge.git
+```
+
+3 - Once done, navigate to the folder which is created from that command.
+
+4 - When you are within the repository, run this command:
+
+```node
+npm install
+```
+
+5 - Once that has finished installing, run this command to start the application process:
+
+```node
+npm run start
+
+
 ```
