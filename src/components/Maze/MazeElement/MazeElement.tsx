@@ -2,10 +2,11 @@ import React from "react";
 import IMazeElement from "../../../types/IMazeElement";
 import "./MazeElement.css";
 
-const MazeElement: React.FC<{ mazeElement: IMazeElement }> = ({
-	mazeElement,
-}) => {
-	const { walls, isDomokun, isPony, isEndPoint, height } = mazeElement;
+const MazeElement: React.FC<{
+	mazeElement: IMazeElement;
+	mazeElementSize: number;
+}> = ({ mazeElement, mazeElementSize }) => {
+	const { walls, isDomokun, isPony, isEndPoint } = mazeElement;
 
 	const elementClass = ["element"];
 
@@ -26,10 +27,8 @@ const MazeElement: React.FC<{ mazeElement: IMazeElement }> = ({
 	}
 
 	const elementStyle: Record<string, string | number> = {};
-
-	const h = 70 / height;
-	elementStyle["height"] = h + "vmin";
-	elementStyle["width"] = h + "vmin";
+	elementStyle["height"] = mazeElementSize + "vmin";
+	elementStyle["width"] = mazeElementSize + "vmin";
 
 	return (
 		<div className={elementClass.join(" ")} style={elementStyle}>
