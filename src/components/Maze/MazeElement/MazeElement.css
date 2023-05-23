@@ -17,10 +17,3 @@
 .west {
 	border-left: 2px solid #38d39a;
 }
-
-@media only screen and (max-width: 480px) {
-	.element {
-		height: 6.33333vmin !important;
-		width: 6.33333vmin !important;
-	}
-}
