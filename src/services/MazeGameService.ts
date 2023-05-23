@@ -73,7 +73,8 @@ class MazeGameService {
 					isPony: indexCount === pony ? true : false,
 					isDomokun: indexCount === domokun ? true : false,
 					isEndPoint: indexCount === endPoint ? true : false,
-					height: mazeHeight,
+					mazeHeight: mazeHeight,
+					mazeWidth: mazeWidth,
 				};
 
 				if (i === mazeHeight - 1) {

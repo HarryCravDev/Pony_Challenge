@@ -1,5 +1,6 @@
 export default interface IMazeElement {
-	height: number;
+	mazeHeight: number;
+	mazeWidth: number;
 	isDomokun: boolean;
 	isEndPoint: boolean;
 	isPony: boolean;
