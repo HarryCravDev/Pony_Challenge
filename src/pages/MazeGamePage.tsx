@@ -84,7 +84,7 @@ const MazeGamePage = () => {
 				<Alert
 					message="Oh no! Something went wrong!"
 					type="error"
-					addtionalMessage={`Error message: ${errorMessage}`}
+					additionalMessage={`Error message: ${errorMessage}`}
 				/>
 				<div className="flex justify-center mt-3">
 					<img src="/images/pony-loser.png" />
@@ -127,7 +127,7 @@ const MazeGamePage = () => {
 	}
 
 	return (
-		<section className="h-screen">
+		<section>
 			<span className="mb-8"></span>
 			<Maze maze={maze} />
 			<KeyBoard />

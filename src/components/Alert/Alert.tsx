@@ -3,10 +3,10 @@ import React from "react";
 interface IAlertProps {
 	message: string;
 	type: "success" | "error";
-	addtionalMessage?: string;
+	additionalMessage?: string;
 }
 
-const Alert: React.FC<IAlertProps> = ({ message, type, addtionalMessage }) => {
+const Alert: React.FC<IAlertProps> = ({ message, type, additionalMessage }) => {
 	const alertTypeClass = type === "success" ? "alert-success" : "alert-error";
 
 	return (
@@ -43,7 +43,7 @@ const Alert: React.FC<IAlertProps> = ({ message, type, addtionalMessage }) => {
 				)}
 
 				<span>{message}</span>
-				{addtionalMessage && <span>{addtionalMessage}</span>}
+				{additionalMessage && <span>{additionalMessage}</span>}
 			</div>
 		</div>
 	);
