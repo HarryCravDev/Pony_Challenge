@@ -71,12 +71,7 @@ const GameControls: React.FC<{ sideNav: boolean }> = ({ sideNav }) => {
 						sideNav={sideNav}
 					/>
 				</li>
-				<li
-					style={{
-						color:
-							"hsl(var(--suc, var(--nc)) / var(--tw-text-opacity)) !important",
-					}}
-				>
+				<li className="text-black	">
 					<CreateMazeButton title="Create Maze" color="success" />
 					<div></div>
 					<ShowInstructionsButton title="Instructions" color="success" />
