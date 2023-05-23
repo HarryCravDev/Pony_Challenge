@@ -3,19 +3,14 @@
 .keys {
 	font-family: "Lato", sans-serif;
 	text-align: center;
-	/* width: 500px;
-	height: 200px; */
-	margin: 2rem auto;
+	margin: 10px auto 0 auto;
 }
 
 .arr {
 	cursor: pointer;
-	width: 6rem;
-	height: 6rem;
-	/* width: 100px;
-	height: 100px; */
+	width: 5rem;
+	height: 5rem;
 	text-align: center;
-	line-height: 100px;
 	background: grey;
 	color: white;
 	font-size: 50px;
@@ -36,28 +31,4 @@
 .pressed {
 	border-bottom: 8px solid darken(grey, 20);
 	text-shadow: 0 0 10px white;
-	/* transform: translate(0, 2px); */
-}
-
-.names {
-	font-size: 18px;
-	font-family: "Lato", sans-serif;
-	text-align: center;
-	color: white;
-	text-shadow: 0 0 10px white, 0 0 10px white, 0 0 10px white, 0 0 10px white;
-}
-
-.b {
-	color: blue;
-	text-shadow: 0 0 10px blue, 0 0 10px blue, 0 0 10px blue, 0 0 10px blue;
-	font-size: 100px;
-	font-family: serif;
-}
-
-.a {
-	color: yellow;
-	text-shadow: 0 0 10px yellow, 0 0 10px yellow, 0 0 10px yellow,
-		0 0 10px yellow;
-	font-size: 100px;
-	font-family: serif;
 }
